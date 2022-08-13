@@ -1,5 +1,5 @@
-module github.com/freya-popo/freya-popo.github.io
+module github.com/theNewDynamic/gohugo-theme-ananke/exampleSite
 
-go 1.19
+go 1.14
 
-require github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220610193657-470ea40982f5 // indirect
+require github.com/theNewDynamic/gohugo-theme-ananke v0.0.0-20220421182344-c49009b823de // indirect
