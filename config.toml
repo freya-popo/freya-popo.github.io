@@ -2,7 +2,7 @@ title = "Notre-Dame de Paris"
 baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-us"
 theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
-resourceDir = "../resources"
+resourceDir = "./static"
 
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
