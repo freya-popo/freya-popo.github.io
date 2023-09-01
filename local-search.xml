@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>OpenAI API</title>
+    <link href="/2023/09/01/openai-api/"/>
+    <url>/2023/09/01/openai-api/</url>
+    
+    <content type="html"><![CDATA[<p>I interviewed for an ai intern position yesterday. Although the first interview seemed to go well,<br>I didn’t actually have a lot of ai-related experiece. So I asked the interviewer for some suggestions<br>on what I should learn before next interview to be a better match for this position.</p><p>LLM is the answer.</p><p>Therefore, in this post, I will update some learning notes on openai api calls.</p><hr>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>openai</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>About Me</title>
     <link href="/2023/08/31/hello-world/"/>
     <url>/2023/08/31/hello-world/</url>
