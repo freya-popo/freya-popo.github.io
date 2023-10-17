@@ -16,22 +16,21 @@
   <meta name="author" content="freya-popo">
   <meta name="keywords" content="">
   
-    <meta name="description" content="This is my first successful attempt at using Hexo to create a personal blog.I’ve been wanting to do this for about a year now. Last year, during my internshipat Eleme, I had the idea of creating my ow">
+    <meta name="description" content="$ hexo new [layout] “title” # default post HTML structurewe need to identify the type of the document at the beginning every visible content should be written in the “body” ‘p’ tag is the basic tag wh">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo First Use Guide">
-<meta property="og:url" content="http://freya-popo.github.io/2023/09/01/hexo/index.html">
+<meta property="og:title" content="web learning - html">
+<meta property="og:url" content="http://freya-popo.github.io/2023/10/08/web-learning-html/index.html">
 <meta property="og:site_name" content="Hello World">
-<meta property="og:description" content="This is my first successful attempt at using Hexo to create a personal blog.I’ve been wanting to do this for about a year now. Last year, during my internshipat Eleme, I had the idea of creating my ow">
+<meta property="og:description" content="$ hexo new [layout] “title” # default post HTML structurewe need to identify the type of the document at the beginning every visible content should be written in the “body” ‘p’ tag is the basic tag wh">
 <meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2023-09-01T14:04:49.000Z">
-<meta property="article:modified_time" content="2023-09-01T20:15:15.185Z">
+<meta property="article:published_time" content="2023-10-08T19:01:11.000Z">
+<meta property="article:modified_time" content="2023-10-09T18:52:50.859Z">
 <meta property="article:author" content="freya-popo">
-<meta property="article:tag" content="hexo">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>hexo First Use Guide - Hello World</title>
+  <title>web learning - html - Hello World</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +196,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="hexo First Use Guide"></span>
+            <span id="subtitle" data-typed-text="web learning - html"></span>
           
         </div>
 
@@ -208,8 +207,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2023-09-01 10:04" pubdate>
-          September 1, 2023 am
+        <time datetime="2023-10-08 15:01" pubdate>
+          October 8, 2023 pm
         </time>
       </span>
     
@@ -220,7 +219,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.3k words
+          720 words
         
       </span>
     
@@ -231,7 +230,7 @@
         
         
         
-          28 mins
+          7 mins
         
       </span>
     
@@ -268,59 +267,20 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">hexo First Use Guide</h1>
+            <h1 id="seo-header">web learning - html</h1>
             
             
               <div class="markdown-body">
                 
-                <p>This is my first successful attempt at using Hexo to create a personal blog.<br>I’ve been wanting to do this for about a year now. Last year, during my internship<br>at Eleme, I had the idea of creating my own website, but I didn’t know how to<br>use templates or GitHub at the time, so I abandoned the idea.<br>Later, during my internship at Amazon, I tried again but still didn’t succeed.<br>After two days of effort this time, I finally completed the first version of the website.</p>
-<p>In this blog, let me update the process of building my own blog.</p>
-<hr>
-<h3 id="Step1-Environment-set-up-Should-I-say-it-like-this"><a href="#Step1-Environment-set-up-Should-I-say-it-like-this" class="headerlink" title="Step1: Environment set up (Should I say it like this?)"></a>Step1: Environment set up (Should I say it like this?)</h3><p>I have installed <strong>npm</strong>, <strong>git</strong>, <strong>hexo</strong> and <strong>node.js</strong> .</p>
-<h3 id="Step2-Install-Hexo"><a href="#Step2-Install-Hexo" class="headerlink" title="Step2: Install Hexo"></a>Step2: Install <strong>Hexo</strong></h3><p>Create a new folder locally (this folder will contain the files related to this blog.)</p>
-<p>Then use <strong>git bash</strong> to open the cmd window. Then use these commands to install and set up <strong>Hexo</strong>.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-cli -g<br>$ hexo -v   <span class="hljs-comment"># check the version of hexo</span><br></code></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo init  <span class="hljs-comment"># After initializing this blog with the command, many files will appear inside this folder</span><br>$ npm install<br></code></pre></td></tr></table></figure>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo g  <span class="hljs-comment"># generate the website locally</span><br>$ hexo server  <span class="hljs-comment"># open the local server (in my understanding);  </span><br></code></pre></td></tr></table></figure>
-<p>then we can check the website via <strong>localhost:4000</strong></p>
-<h3 id="step3-change-the-theme-optional"><a href="#step3-change-the-theme-optional" class="headerlink" title="step3: change the theme (optional)"></a>step3: change the theme (optional)</h3><p>the default theme looks not very fashion, so we can choose another one on the theme page of hexo website.<br><a target="_blank" rel="noopener" href="https://hexo.io/themes/index.html">Theme&#x2F;Hexo</a></p>
-<p>I chose the theme “fluid”, after careful comparison and thorough planning (just kidding orz). I think this theme looks cute and simple.</p>
-<p>You can choose whatever you like.</p>
-<p>Remember, after choosing a theme, we need to clone this theme from github to a local folder – <strong>.&#x2F;theme</strong></p>
-<p>All themes are stored there.</p>
-<p>Use this command to clone the theme.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># example</span><br>$ git <span class="hljs-built_in">clone</span> https://github.com/DrakeLeung/hexo-theme-again.git themes/again<br><span class="hljs-comment"># blablabla.git is the address of the theme, themes/*** means we want to clone to this local folder</span><br></code></pre></td></tr></table></figure>
+                <p>$ hexo new [layout] “title” # default post</p>
+<h1 id="HTML-structure"><a href="#HTML-structure" class="headerlink" title="HTML structure"></a>HTML structure</h1><p>we need to identify the type of the document at the beginning</p>
+<p>every visible content should be written in the “body”</p>
+<p>‘p’ tag is the basic tag which contains the most common content.</p>
+<p>‘a’ tag: html attribute –<br>    ‘href’ is the name of this attribute, quote is the value of the attribute</p>
+<p>we don’t need to close a ‘img’ tag (we don’t need write sth). specify the source of the image by using a src&#x3D;”” quote.</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs bash">&lt;!DOCTYPE html&gt;<br><br>&lt;html&gt;<br>    &lt;body&gt;<br>        &lt;h1&gt;...&lt;/h1&gt;<br>        &lt;h2&gt;...&lt;/h2&gt;<br>        &lt;h3&gt;...&lt;/h3&gt;<br>        <br>        &lt;p&gt;...&lt;/p&gt;<br>        <br>        &lt;a herf=<span class="hljs-string">&#x27;https://google.com&#x27;</span>&gt; click this <span class="hljs-built_in">link</span> &lt;/a&gt;<br>        <br>        &lt;img src=<span class="hljs-string">&quot; &quot;</span> height=<span class="hljs-string">&quot;&quot;</span> width=<span class="hljs-string">&quot;&quot;</span> alt=<span class="hljs-string">&quot;&quot;</span>&gt; <br>        <br>    &lt;/body&gt;<br>&lt;/html&gt;<br></code></pre></td></tr></table></figure>
 
-<p>Then we need to edit the config file: <strong>_config.yml</strong>, and update the theme</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># Extensions</span><br><span class="hljs-comment">## Plugins: https://hexo.io/plugins/</span><br><span class="hljs-comment">## Themes: https://hexo.io/themes/</span><br>theme: fluid<br></code></pre></td></tr></table></figure>
-
-<p>Then, we clear the local cache and regenerate the website</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo clean<br>$ hexo g<br>$ hexo server<br></code></pre></td></tr></table></figure>
-<p>up to now, we have generated a blog website. </p>
-<h3 id="Step4-Github-repository-creation"><a href="#Step4-Github-repository-creation" class="headerlink" title="Step4: Github repository creation"></a>Step4: Github repository creation</h3><p>We need to create a <strong>GitHub account</strong> and create a <strong>new repository</strong> to host our Hexo website later.</p>
-<figure class="highlight livecodeserver"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs livecodeserver">tips: <span class="hljs-keyword">the</span> name <span class="hljs-keyword">of</span> this <span class="hljs-built_in">new</span> repository should be <span class="hljs-keyword">the</span> same <span class="hljs-keyword">with</span> <span class="hljs-string">&quot;your user name+.github.io&quot;</span>. <br></code></pre></td></tr></table></figure>
-
-<p>For example, my name is <strong>freya-popo</strong>, the name of repository should be <strong>freya-popo.github.io</strong></p>
-<p>In the process of creating a new repository, we can choose to add a readme file automatically. Also, we can choose the master branch.</p>
-<h3 id="set-up-deployment"><a href="#set-up-deployment" class="headerlink" title="set up deployment"></a>set up deployment</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ git config --global user.name <span class="hljs-string">&quot;*******&quot;</span><br>$ git config --global user.email <span class="hljs-string">&quot;*******&quot;</span>   <span class="hljs-comment"># used in your github account</span><br></code></pre></td></tr></table></figure>
-
-<p>Also, we need to edit the hexo config file again. I think it is to confirm where to deploy this blog website.</p>
-<p>In the _config.yml file, in the last part, we update this part like this.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs bash">deploy:<br><span class="hljs-built_in">type</span>: git<br>repo: git@github.com:yourname/yourname.github.io.git     <span class="hljs-comment"># it can be copied from your github repository page</span><br>branch: master<br></code></pre></td></tr></table></figure>
-<p>Then, after deployment, this folder will be deployed to the master branch of your repository.</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ npm install hexo-deployer-git --save<br><span class="hljs-comment"># I am not entirely sure what this command does, but just input it and save something.</span><br></code></pre></td></tr></table></figure>
-
-<h3 id="Step5-generate-a-SSH-key"><a href="#Step5-generate-a-SSH-key" class="headerlink" title="Step5: generate a SSH key"></a>Step5: generate a SSH key</h3><p>Before deploy the website, we still need to set up the SSH.</p>
-<p>Go to the Github home page – setting – “SSH and GPG keys” – new SSH key</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ ssh-keygen -t rsa -C <span class="hljs-string">&quot;******@***.com&quot;</span><br><span class="hljs-comment"># the eamil user for your github account </span><br></code></pre></td></tr></table></figure>
-<p>After pressing Enter three times consecutively, a path will be displayed.</p>
-<p>The default path is C:\Users\username.ssh</p>
-<p>find the file : <strong>id_rsa.pub</strong> and copy the content to the github “new SSH key” page.</p>
-<p>Then the key will be created.</p>
-<h3 id="step6-deploy-your-blog-website"><a href="#step6-deploy-your-blog-website" class="headerlink" title="step6: deploy your blog website"></a>step6: deploy your blog website</h3><p>AHA, the last step</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo d<br></code></pre></td></tr></table></figure>
-<p>Congrats! Now you can see your own website via <strong><a target="_blank" rel="noopener" href="https://username.github.io/">https://username.github.io</a></strong></p>
-
+<h2 id="attribute"><a href="#attribute" class="headerlink" title="attribute"></a>attribute</h2>
                 
               </div>
             
@@ -328,13 +288,6 @@
             <div>
               <div class="post-metas my-3">
   
-  
-    <div class="post-meta">
-      <i class="iconfont icon-tags"></i>
-      
-        <a href="/tags/hexo/" class="print-no-link">#hexo</a>
-      
-    </div>
   
 </div>
 
@@ -344,8 +297,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>hexo First Use Guide</div>
-      <div>http://freya-popo.github.io/2023/09/01/hexo/</div>
+      <div>web learning - html</div>
+      <div>http://freya-popo.github.io/2023/10/08/web-learning-html/</div>
     </div>
     <div class="license-meta">
       
@@ -357,7 +310,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>Posted on</div>
-          <div>September 1, 2023</div>
+          <div>October 8, 2023</div>
         </div>
       
       
@@ -389,9 +342,9 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2023/10/08/web-learning-html/" title="web learning - html">
+                      <a href="/2023/10/17/git-command/" title="git command">
                         <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">web learning - html</span>
+                        <span class="hidden-mobile">git command</span>
                         <span class="visible-mobile">Previous</span>
                       </a>
                     
@@ -399,8 +352,8 @@
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2023/09/01/openai-api/" title="OpenAI API">
-                        <span class="hidden-mobile">OpenAI API</span>
+                      <a href="/2023/09/01/hexo/" title="hexo First Use Guide">
+                        <span class="hidden-mobile">hexo First Use Guide</span>
                         <span class="visible-mobile">Next</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
